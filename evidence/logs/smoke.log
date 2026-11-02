@@ -1,0 +1,27 @@
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 5802.14it/s]
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 11707.76it/s]
+WARNING:lerobot.configs.policies:Device 'cuda' is not available. Switching to 'mps'.
+WARNING:lerobot.configs.policies:Automatic Mixed Precision (amp) is not available on device 'mps'. Deactivating AMP.
+WARNING:lerobot.configs.policies:Device 'cuda' is not available. Switching to 'mps'.
+WARNING:lerobot.configs.policies:Automatic Mixed Precision (amp) is not available on device 'mps'. Deactivating AMP.
+You have used fast image processor with LANCZOS resample which not yet supported for torch.Tensor. BICUBIC resample will be used as an alternative. Please fall back to slow image processor if you want full consistency with the original model.
+Loading weights from local directory
+{
+  "config": "config/smoke.yaml",
+  "device": "cpu",
+  "snapshot_source": "dataset_frame",
+  "n_frames": 1,
+  "n_layers": 32,
+  "word_token_ids": {
+    "plate": 6496,
+    "stove": 23588
+  },
+  "n_token_positions": 188,
+  "hidden_size": 960,
+  "worst_self_patch_max_abs": 0.0,
+  "worst_final_lens_max_abs": 0.0,
+  "smallest_zero_patch_change": 45.388099670410156,
+  "worst_after_hook_removal_max_abs": 0.0,
+  "checks_passed": true,
+  "total_seconds": 74.0
+}

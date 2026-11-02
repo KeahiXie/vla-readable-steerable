@@ -1,0 +1,12 @@
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3218.68it/s]
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 8701.88it/s]
+WARNING:lerobot.configs.policies:Device 'cuda' is not available. Switching to 'mps'.
+WARNING:lerobot.configs.policies:Automatic Mixed Precision (amp) is not available on device 'mps'. Deactivating AMP.
+WARNING:lerobot.configs.policies:Device 'cuda' is not available. Switching to 'mps'.
+WARNING:lerobot.configs.policies:Automatic Mixed Precision (amp) is not available on device 'mps'. Deactivating AMP.
+You have used fast image processor with LANCZOS resample which not yet supported for torch.Tensor. BICUBIC resample will be used as an alternative. Please fall back to slow image processor if you want full consistency with the original model.
+Loading weights from local directory
+self-patch: largest output change 0.0
+zero-patch: largest output change 45.388099670410156
+after remove(): largest output change 0.0
+PASS: self-patch is exact, the patch really fires, and it comes off cleanly

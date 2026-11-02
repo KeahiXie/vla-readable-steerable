@@ -1,0 +1,169 @@
+{
+  "device": "cpu",
+  "episode_index": 379,
+  "frame_index": 67,
+  "n_tokens": {
+    "plate": 188,
+    "stove": 188
+  },
+  "differing_positions": [
+    144
+  ],
+  "differing_tokens": {
+    "plate": [
+      " plate"
+    ],
+    "stove": [
+      " stove"
+    ]
+  },
+  "pixels_equal": true,
+  "pixel_values_shape": [
+    1,
+    2,
+    3,
+    512,
+    512
+  ],
+  "n_image_tokens": 128,
+  "prompt_tail": [
+    " the",
+    " plate",
+    ",",
+    " State",
+    ":",
+    " ",
+    "3",
+    "0",
+    "4",
+    " ",
+    "2",
+    "5",
+    "1",
+    " ",
+    "3",
+    "7",
+    "1",
+    " ",
+    "4",
+    "0",
+    "4",
+    " ",
+    "2",
+    "3",
+    "5",
+    " ",
+    "2",
+    "6",
+    "7",
+    " ",
+    "4",
+    "2",
+    " ",
+    "4",
+    "6",
+    "6",
+    ",",
+    " Actions",
+    ":",
+    " ",
+    "<end_of_utterance>",
+    "\n",
+    "Ass",
+    "istant",
+    ":"
+  ],
+  "forward_plate": {
+    "seconds": 1.023,
+    "logits_shape": [
+      1,
+      188,
+      49281
+    ],
+    "top5_next_token": [
+      " ",
+      ":",
+      "tem",
+      "oss",
+      "owing"
+    ]
+  },
+  "forward_stove": {
+    "seconds": 0.771,
+    "logits_shape": [
+      1,
+      188,
+      49281
+    ],
+    "top5_next_token": [
+      " ",
+      " H",
+      " Sun",
+      " th",
+      " sun"
+    ]
+  },
+  "generate_plate": {
+    "seconds": 8.7,
+    "chunk_shape": [
+      1,
+      8,
+      7
+    ],
+    "first_action_normalized": [
+      0.873,
+      -0.002,
+      0.971,
+      -0.158,
+      0.291,
+      -0.01,
+      0.998
+    ],
+    "first_action_real": [
+      0.818,
+      -0.002,
+      0.91,
+      0.0,
+      0.109,
+      0.0,
+      0.998
+    ],
+    "all_bin_zero_fallback": false
+  },
+  "generate_stove": {
+    "seconds": 8.7,
+    "chunk_shape": [
+      1,
+      8,
+      7
+    ],
+    "first_action_normalized": [
+      -0.002,
+      0.314,
+      0.998,
+      -0.158,
+      0.201,
+      -0.01,
+      0.998
+    ],
+    "first_action_real": [
+      -0.002,
+      0.295,
+      0.936,
+      0.0,
+      0.075,
+      0.0,
+      0.998
+    ],
+    "all_bin_zero_fallback": false
+  },
+  "recorded_action": [
+    0.82,
+    0.0,
+    0.911,
+    0.0,
+    0.109,
+    -0.0,
+    1.0
+  ]
+}

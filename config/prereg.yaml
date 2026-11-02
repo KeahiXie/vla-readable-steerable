@@ -1,0 +1,7 @@
+# Pre-registration. Fixed after the 10 tuning episodes and committed before any
+# held-out run. Unset on purpose: no held-out data may run while null.
+gate1_sign_accuracy_threshold: null
+gate2_redirect_rate_threshold: null
+equivalence_margin_delta: null
+layers: null
+positions: null

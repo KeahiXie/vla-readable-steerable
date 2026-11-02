@@ -1,0 +1,15 @@
+# Pinned environment for vla-readable-steerable (Apple Silicon or Linux).
+# Exact resolved versions are captured per run in evidence/<run>/environment.txt.
+name: vla-readable-steerable
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - ffmpeg
+  - cmake=3.31  # egl_probe's CMakeLists asks for 2.8.12, which CMake 4 refuses
+  - pip:
+      # lerobot-experiments, dev branch, pinned to the commit read on 2026-11-02.
+      - "lerobot[vla0_smol,libero] @ git+https://github.com/Robot-Learning-Collective/lerobot-experiments.git@8e71efbebbb7ea2942b579b1d21e3ec11ac2d271"
+      - pyyaml
+      - matplotlib

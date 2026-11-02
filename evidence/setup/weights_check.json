@@ -1,0 +1,7 @@
+{
+  "checkpoint_tensors": 489,
+  "model_tensors": 489,
+  "in_checkpoint_not_model": [],
+  "in_model_not_checkpoint": [],
+  "values_differ": []
+}

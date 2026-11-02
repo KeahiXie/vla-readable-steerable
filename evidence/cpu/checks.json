@@ -1,0 +1,282 @@
+[
+  {
+    "episode_index": 379,
+    "instruction": "plate",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 45.388099670410156,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 379,
+    "instruction": "stove",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 48.148860931396484,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 422,
+    "instruction": "plate",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 50.96894454956055,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 422,
+    "instruction": "stove",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 53.33056640625,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 426,
+    "instruction": "plate",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 44.9897575378418,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 426,
+    "instruction": "stove",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 52.40858459472656,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 431,
+    "instruction": "plate",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 47.005863189697266,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 431,
+    "instruction": "stove",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 48.04508972167969,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 433,
+    "instruction": "plate",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 48.23208236694336,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 433,
+    "instruction": "stove",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 50.87400817871094,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 447,
+    "instruction": "plate",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 46.26228713989258,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 447,
+    "instruction": "stove",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 48.5023307800293,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 448,
+    "instruction": "plate",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 47.974491119384766,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 448,
+    "instruction": "stove",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 53.737457275390625,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 451,
+    "instruction": "plate",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 41.95598602294922,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 451,
+    "instruction": "stove",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 42.263301849365234,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 459,
+    "instruction": "plate",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 45.19797897338867,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 459,
+    "instruction": "stove",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 50.250003814697266,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 466,
+    "instruction": "plate",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 51.587215423583984,
+    "after_hook_removal_max_abs": 0.0
+  },
+  {
+    "episode_index": 466,
+    "instruction": "stove",
+    "final_layer_lens_vs_logits_max_abs": 0.0,
+    "self_patch_max_abs_by_layer": {
+      "0": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "24": 0.0,
+      "31": 0.0
+    },
+    "zero_patch_max_abs_change": 47.76189041137695,
+    "after_hook_removal_max_abs": 0.0
+  }
+]

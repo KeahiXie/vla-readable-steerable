@@ -1,0 +1,16 @@
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 1884.52it/s]
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 6414.13it/s]
+WARNING:lerobot.configs.policies:Device 'cuda' is not available. Switching to 'mps'.
+WARNING:lerobot.configs.policies:Automatic Mixed Precision (amp) is not available on device 'mps'. Deactivating AMP.
+WARNING:lerobot.configs.policies:Device 'cuda' is not available. Switching to 'mps'.
+WARNING:lerobot.configs.policies:Automatic Mixed Precision (amp) is not available on device 'mps'. Deactivating AMP.
+You have used fast image processor with LANCZOS resample which not yet supported for torch.Tensor. BICUBIC resample will be used as an alternative. Please fall back to slow image processor if you want full consistency with the original model.
+Loading weights from local directory
+PASS: one tensor per layer, and the hooks come off cleanly
+layers captured: 32
+shape of one capture [batch, positions, hidden]: [1, 188, 960]
+
+Where do the two instructions differ inside the network?
+  layer  1: first differing position 144, positions differing 44 of 188
+  layer 16: first differing position 144, positions differing 44 of 188
+  layer 31: first differing position 144, positions differing 44 of 188

@@ -1,0 +1,27 @@
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3736.02it/s]
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 10066.33it/s]
+WARNING:lerobot.configs.policies:Device 'cuda' is not available. Switching to 'mps'.
+WARNING:lerobot.configs.policies:Automatic Mixed Precision (amp) is not available on device 'mps'. Deactivating AMP.
+WARNING:lerobot.configs.policies:Device 'cuda' is not available. Switching to 'mps'.
+WARNING:lerobot.configs.policies:Automatic Mixed Precision (amp) is not available on device 'mps'. Deactivating AMP.
+You have used fast image processor with LANCZOS resample which not yet supported for torch.Tensor. BICUBIC resample will be used as an alternative. Please fall back to slow image processor if you want full consistency with the original model.
+Loading weights from local directory
+{
+  "device": "cpu",
+  "machine": "macOS-26.6.2-arm64-arm-64bit",
+  "processor": "arm",
+  "cuda_device": null,
+  "mps_cpu_fallback": null,
+  "torch": "2.7.1",
+  "episode_index": 379,
+  "frame_index": 67,
+  "load_seconds": 5.81,
+  "forward_warmup_s": 1.4568,
+  "generate_warmup_s": 10.8382,
+  "bin_zero_fallbacks": 0,
+  "peak_process_rss_gb": 4.31,
+  "peak_mps_driver_allocated_gb": null,
+  "peak_cuda_allocated_gb": null
+}
+forward {'n': 20, 'median_s': 1.082, 'mean_s': 1.2002, 'min_s': 0.8237, 'max_s': 2.2403}
+generate {'n': 10, 'median_s': 11.7586, 'mean_s': 12.3477, 'min_s': 11.2685, 'max_s': 14.5854}

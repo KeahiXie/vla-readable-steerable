@@ -1,0 +1,58 @@
+{
+  "task_ids": {
+    "plate": 8,
+    "stove": 1
+  },
+  "tasks": {
+    "0": "open the middle drawer of the cabinet",
+    "1": "put the bowl on the stove",
+    "2": "put the wine bottle on top of the cabinet",
+    "3": "open the top drawer and put the bowl inside",
+    "4": "put the bowl on top of the cabinet",
+    "5": "push the plate to the front of the stove",
+    "6": "put the cream cheese in the bowl",
+    "7": "turn on the stove",
+    "8": "put the bowl on the plate",
+    "9": "put the wine bottle on the rack"
+  },
+  "plate": {
+    "task_id": 8,
+    "language": "put the bowl on the plate",
+    "build_and_reset_seconds": 1.93,
+    "seconds_per_sim_step": 0.0164,
+    "image_shapes": {
+      "image": [
+        256,
+        256,
+        3
+      ],
+      "image2": [
+        256,
+        256,
+        3
+      ]
+    },
+    "max_episode_steps": 300,
+    "success_after_noop": false
+  },
+  "stove": {
+    "task_id": 1,
+    "language": "put the bowl on the stove",
+    "build_and_reset_seconds": 0.96,
+    "seconds_per_sim_step": 0.0187,
+    "image_shapes": {
+      "image": [
+        256,
+        256,
+        3
+      ],
+      "image2": [
+        256,
+        256,
+        3
+      ]
+    },
+    "max_episode_steps": 300,
+    "success_after_noop": false
+  }
+}

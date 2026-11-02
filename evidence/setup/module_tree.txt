@@ -1,0 +1,110 @@
+: SmolVLMForConditionalGeneration
+model: SmolVLMModel
+model.vision_model: SmolVLMVisionTransformer
+model.vision_model.embeddings: SmolVLMVisionEmbeddings
+model.vision_model.embeddings.patch_embedding: Conv2d
+model.vision_model.embeddings.position_embedding: Embedding
+model.vision_model.encoder: SmolVLMEncoder
+model.vision_model.encoder.layers: ModuleList
+model.vision_model.post_layernorm: LayerNorm
+model.connector: SmolVLMConnector
+model.connector.modality_projection: SmolVLMSimpleMLP
+model.connector.modality_projection.proj: Linear
+model.text_model: LlamaModel
+model.text_model.embed_tokens: Embedding
+model.text_model.layers: ModuleList
+model.text_model.layers.0: LlamaDecoderLayer
+model.text_model.layers.1: LlamaDecoderLayer
+model.text_model.layers.2: LlamaDecoderLayer
+model.text_model.layers.3: LlamaDecoderLayer
+model.text_model.layers.4: LlamaDecoderLayer
+model.text_model.layers.5: LlamaDecoderLayer
+model.text_model.layers.6: LlamaDecoderLayer
+model.text_model.layers.7: LlamaDecoderLayer
+model.text_model.layers.8: LlamaDecoderLayer
+model.text_model.layers.9: LlamaDecoderLayer
+model.text_model.layers.10: LlamaDecoderLayer
+model.text_model.layers.11: LlamaDecoderLayer
+model.text_model.layers.12: LlamaDecoderLayer
+model.text_model.layers.13: LlamaDecoderLayer
+model.text_model.layers.14: LlamaDecoderLayer
+model.text_model.layers.15: LlamaDecoderLayer
+model.text_model.layers.16: LlamaDecoderLayer
+model.text_model.layers.17: LlamaDecoderLayer
+model.text_model.layers.18: LlamaDecoderLayer
+model.text_model.layers.19: LlamaDecoderLayer
+model.text_model.layers.20: LlamaDecoderLayer
+model.text_model.layers.21: LlamaDecoderLayer
+model.text_model.layers.22: LlamaDecoderLayer
+model.text_model.layers.23: LlamaDecoderLayer
+model.text_model.layers.24: LlamaDecoderLayer
+model.text_model.layers.25: LlamaDecoderLayer
+model.text_model.layers.26: LlamaDecoderLayer
+model.text_model.layers.27: LlamaDecoderLayer
+model.text_model.layers.28: LlamaDecoderLayer
+model.text_model.layers.29: LlamaDecoderLayer
+model.text_model.layers.30: LlamaDecoderLayer
+model.text_model.layers.31: LlamaDecoderLayer
+model.text_model.norm: LlamaRMSNorm
+model.text_model.rotary_emb: LlamaRotaryEmbedding
+lm_head: Linear
+
+SmolVLMForConditionalGeneration(
+  (model): SmolVLMModel(
+    (vision_model): SmolVLMVisionTransformer(
+      (embeddings): SmolVLMVisionEmbeddings(
+        (patch_embedding): Conv2d(3, 768, kernel_size=(16, 16), stride=(16, 16), padding=valid)
+        (position_embedding): Embedding(1024, 768)
+      )
+      (encoder): SmolVLMEncoder(
+        (layers): ModuleList(
+          (0-11): 12 x SmolVLMEncoderLayer(
+            (self_attn): SmolVLMVisionAttention(
+              (k_proj): Linear(in_features=768, out_features=768, bias=True)
+              (v_proj): Linear(in_features=768, out_features=768, bias=True)
+              (q_proj): Linear(in_features=768, out_features=768, bias=True)
+              (out_proj): Linear(in_features=768, out_features=768, bias=True)
+            )
+            (layer_norm1): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+            (mlp): SmolVLMVisionMLP(
+              (activation_fn): GELUTanh()
+              (fc1): Linear(in_features=768, out_features=3072, bias=True)
+              (fc2): Linear(in_features=3072, out_features=768, bias=True)
+            )
+            (layer_norm2): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+          )
+        )
+      )
+      (post_layernorm): LayerNorm((768,), eps=1e-06, elementwise_affine=True)
+    )
+    (connector): SmolVLMConnector(
+      (modality_projection): SmolVLMSimpleMLP(
+        (proj): Linear(in_features=12288, out_features=960, bias=False)
+      )
+    )
+    (text_model): LlamaModel(
+      (embed_tokens): Embedding(49281, 960, padding_idx=2)
+      (layers): ModuleList(
+        (0-31): 32 x LlamaDecoderLayer(
+          (self_attn): LlamaAttention(
+            (q_proj): Linear(in_features=960, out_features=960, bias=False)
+            (k_proj): Linear(in_features=960, out_features=320, bias=False)
+            (v_proj): Linear(in_features=960, out_features=320, bias=False)
+            (o_proj): Linear(in_features=960, out_features=960, bias=False)
+          )
+          (mlp): LlamaMLP(
+            (gate_proj): Linear(in_features=960, out_features=2560, bias=False)
+            (up_proj): Linear(in_features=960, out_features=2560, bias=False)
+            (down_proj): Linear(in_features=2560, out_features=960, bias=False)
+            (act_fn): SiLUActivation()
+          )
+          (input_layernorm): LlamaRMSNorm((960,), eps=1e-05)
+          (post_attention_layernorm): LlamaRMSNorm((960,), eps=1e-05)
+        )
+      )
+      (norm): LlamaRMSNorm((960,), eps=1e-05)
+      (rotary_emb): LlamaRotaryEmbedding()
+    )
+  )
+  (lm_head): Linear(in_features=960, out_features=49281, bias=False)
+)

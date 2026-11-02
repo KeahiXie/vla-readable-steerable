@@ -1,0 +1,19 @@
+{
+  "config": "config/cpu.yaml",
+  "device": "cpu",
+  "snapshot_source": "dataset_frame",
+  "n_frames": 10,
+  "n_layers": 32,
+  "word_token_ids": {
+    "plate": 6496,
+    "stove": 23588
+  },
+  "n_token_positions": 188,
+  "hidden_size": 960,
+  "worst_self_patch_max_abs": 0.0,
+  "worst_final_lens_max_abs": 0.0,
+  "smallest_zero_patch_change": 41.95598602294922,
+  "worst_after_hook_removal_max_abs": 0.0,
+  "checks_passed": true,
+  "total_seconds": 204.3
+}

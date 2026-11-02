@@ -1,0 +1,66 @@
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 2799.52it/s]
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 4519.72it/s]
+WARNING:lerobot.configs.policies:Device 'cuda' is not available. Switching to 'mps'.
+WARNING:lerobot.configs.policies:Automatic Mixed Precision (amp) is not available on device 'mps'. Deactivating AMP.
+WARNING:lerobot.configs.policies:Device 'cuda' is not available. Switching to 'mps'.
+WARNING:lerobot.configs.policies:Automatic Mixed Precision (amp) is not available on device 'mps'. Deactivating AMP.
+Loading weights from local directory
+load_seconds 7.9
+checkpoint_tensors 489
+model_tensors 489
+in_checkpoint_not_model 0 []
+in_model_not_checkpoint 0 []
+values_differ 0 []
+SmolVLMForConditionalGeneration
+: SmolVLMForConditionalGeneration
+model: SmolVLMModel
+model.vision_model: SmolVLMVisionTransformer
+model.vision_model.embeddings: SmolVLMVisionEmbeddings
+model.vision_model.embeddings.patch_embedding: Conv2d
+model.vision_model.embeddings.position_embedding: Embedding
+model.vision_model.encoder: SmolVLMEncoder
+model.vision_model.encoder.layers: ModuleList
+model.vision_model.post_layernorm: LayerNorm
+model.connector: SmolVLMConnector
+model.connector.modality_projection: SmolVLMSimpleMLP
+model.connector.modality_projection.proj: Linear
+model.text_model: LlamaModel
+model.text_model.embed_tokens: Embedding
+model.text_model.layers: ModuleList
+model.text_model.layers.0: LlamaDecoderLayer
+model.text_model.layers.1: LlamaDecoderLayer
+model.text_model.layers.2: LlamaDecoderLayer
+model.text_model.layers.3: LlamaDecoderLayer
+model.text_model.layers.4: LlamaDecoderLayer
+model.text_model.layers.5: LlamaDecoderLayer
+model.text_model.layers.6: LlamaDecoderLayer
+model.text_model.layers.7: LlamaDecoderLayer
+model.text_model.layers.8: LlamaDecoderLayer
+model.text_model.layers.9: LlamaDecoderLayer
+model.text_model.layers.10: LlamaDecoderLayer
+model.text_model.layers.11: LlamaDecoderLayer
+model.text_model.layers.12: LlamaDecoderLayer
+model.text_model.layers.13: LlamaDecoderLayer
+model.text_model.layers.14: LlamaDecoderLayer
+model.text_model.layers.15: LlamaDecoderLayer
+model.text_model.layers.16: LlamaDecoderLayer
+model.text_model.layers.17: LlamaDecoderLayer
+model.text_model.layers.18: LlamaDecoderLayer
+model.text_model.layers.19: LlamaDecoderLayer
+model.text_model.layers.20: LlamaDecoderLayer
+model.text_model.layers.21: LlamaDecoderLayer
+model.text_model.layers.22: LlamaDecoderLayer
+model.text_model.layers.23: LlamaDecoderLayer
+model.text_model.layers.24: LlamaDecoderLayer
+model.text_model.layers.25: LlamaDecoderLayer
+model.text_model.layers.26: LlamaDecoderLayer
+model.text_model.layers.27: LlamaDecoderLayer
+model.text_model.layers.28: LlamaDecoderLayer
+model.text_model.layers.29: LlamaDecoderLayer
+model.text_model.layers.30: LlamaDecoderLayer
+model.text_model.layers.31: LlamaDecoderLayer
+model.text_model.norm: LlamaRMSNorm
+model.text_model.rotary_emb: LlamaRotaryEmbedding
+lm_head: Linear
+n_params 507484224
+vocab 49281

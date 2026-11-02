@@ -1,0 +1,34 @@
+# Stage 0 smoke run: prompt-only forward pass, no generation, no simulator.
+name: smoke
+pins: &pins
+  lerobot_commit: 8e71efbebbb7ea2942b579b1d21e3ec11ac2d271   # lerobot-experiments, dev
+  model: Robot-Learning-Collective/VLA-0-Smol
+  model_revision: 551fe3d5d3debb6532f0675a7a68b3b245ead4d8
+  base_vlm: HuggingFaceTB/SmolVLM2-500M-Video-Instruct       # processor and tokenizer come from here
+  base_vlm_revision: 7b375e1b73b11138ff12fe22c8f2822d8fe03467
+  dataset: HuggingFaceVLA/libero
+  dataset_revision: 86958911c0f959db2bbbdb107eb3e17c5f9c798e
+
+# Recorded demo frames, not saved simulator states. Frame position is a placeholder
+# and is NOT checked to be after the bowl is lifted. Stage 2 replaces this.
+snapshots:
+  source: dataset_frame
+  task: put the bowl on the plate
+  n_episodes: 1
+  frame_fraction: 0.6
+
+instructions:
+  plate: put the bowl on the plate
+  stove: put the bowl on the stove
+
+readout:
+  words: [plate, stove]   # exact tokens get checked and logged by the run
+  layers: all
+  positions: [prompt_end]
+
+checks:
+  self_patch_identity: true
+  self_patch_layers: all
+
+device: cpu
+seed: 0

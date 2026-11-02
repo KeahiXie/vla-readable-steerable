@@ -1,0 +1,29 @@
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 3313.33it/s]
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 5109.29it/s]
+WARNING:lerobot.configs.policies:Device 'cuda' is not available. Switching to 'mps'.
+WARNING:lerobot.configs.policies:Automatic Mixed Precision (amp) is not available on device 'mps'. Deactivating AMP.
+WARNING:lerobot.configs.policies:Device 'cuda' is not available. Switching to 'mps'.
+WARNING:lerobot.configs.policies:Automatic Mixed Precision (amp) is not available on device 'mps'. Deactivating AMP.
+You have used fast image processor with LANCZOS resample which not yet supported for torch.Tensor. BICUBIC resample will be used as an alternative. Please fall back to slow image processor if you want full consistency with the original model.
+/opt/homebrew/Caskroom/miniforge/base/envs/vla-readable-steerable/lib/python3.10/site-packages/torch/nn/functional.py:4704: UserWarning: The operator 'aten::_upsample_bicubic2d_aa.out' is not currently supported on the MPS backend and will fall back to run on the CPU. This may have performance implications. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/mps/MPSFallback.mm:14.)
+  return torch._C._nn._upsample_bicubic2d_aa(
+Loading weights from local directory
+{
+  "device": "mps",
+  "machine": "macOS-26.6.2-arm64-arm-64bit",
+  "processor": "arm",
+  "cuda_device": null,
+  "mps_cpu_fallback": "1",
+  "torch": "2.7.1",
+  "episode_index": 379,
+  "frame_index": 67,
+  "load_seconds": 5.25,
+  "forward_warmup_s": 0.5993,
+  "generate_warmup_s": 18.5909,
+  "bin_zero_fallbacks": 0,
+  "peak_process_rss_gb": 1.54,
+  "peak_mps_driver_allocated_gb": 3.51,
+  "peak_cuda_allocated_gb": null
+}
+forward {'n': 20, 'median_s': 0.6127, 'mean_s': 0.5822, 'min_s': 0.3666, 'max_s': 0.9404}
+generate {'n': 10, 'median_s': 11.9491, 'mean_s': 12.5312, 'min_s': 11.2466, 'max_s': 17.094}
