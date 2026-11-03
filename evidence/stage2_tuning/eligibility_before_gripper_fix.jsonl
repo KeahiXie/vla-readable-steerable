@@ -1,0 +1,1 @@
+{"snapshot": "plate_seed1000.npy", "plate": {"success": false, "bowl_height": 0.9139, "moved_toward_plate": 0.0188, "moved_toward_stove": -0.0151}, "stove": {"success": false, "bowl_height": 0.9147, "moved_toward_plate": 0.02, "moved_toward_stove": -0.0149}, "eligible": false}

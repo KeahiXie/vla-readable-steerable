@@ -1,0 +1,22 @@
+{
+  "status": "exploratory, not Gate evidence",
+  "frames_in_this_invocation": [
+    426
+  ],
+  "skip_frames": 2,
+  "snapshot_source": "dataset_frame",
+  "patch": "prompt pass only; generated tokens run unedited",
+  "self_patch_during_generation": [
+    {
+      "receiver": "plate",
+      "self_patch_identical": true
+    },
+    {
+      "receiver": "stove",
+      "self_patch_identical": true
+    }
+  ],
+  "invalid_outputs_in_this_invocation": 0,
+  "n_rows_in_this_invocation": 50,
+  "total_seconds": 1318.6
+}

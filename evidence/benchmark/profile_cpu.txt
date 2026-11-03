@@ -1,0 +1,22 @@
+         1264032 function calls (1047424 primitive calls) in 8.945 seconds
+
+   Ordered by: internal time
+   List reduced from 587 to 14 due to restriction <14>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    50698    5.157    0.000    5.157    0.000 {built-in method torch._C._nn.linear}
+     7212    2.044    0.000    2.044    0.000 {built-in method torch._C._nn.scaled_dot_product_attention}
+    29475    0.382    0.000    0.382    0.000 {built-in method torch.cat}
+     7200    0.179    0.000    0.514    0.000 /opt/homebrew/Caskroom/miniforge/base/envs/vla-readable-steerable/lib/python3.10/site-packages/transformers/cache_utils.py:98(update)
+    14625    0.089    0.000    0.192    0.000 /opt/homebrew/Caskroom/miniforge/base/envs/vla-readable-steerable/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py:62(forward)
+     7200    0.081    0.000    3.963    0.001 /opt/homebrew/Caskroom/miniforge/base/envs/vla-readable-steerable/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py:223(forward)
+95330/227    0.080    0.000    8.835    0.039 /opt/homebrew/Caskroom/miniforge/base/envs/vla-readable-steerable/lib/python3.10/site-packages/torch/nn/modules/module.py:1755(_call_impl)
+   212085    0.064    0.000    0.064    0.000 /opt/homebrew/Caskroom/miniforge/base/envs/vla-readable-steerable/lib/python3.10/site-packages/torch/nn/modules/module.py:1927(__getattr__)
+    14400    0.060    0.000    0.105    0.000 /opt/homebrew/Caskroom/miniforge/base/envs/vla-readable-steerable/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py:109(rotate_half)
+       12    0.060    0.005    0.060    0.005 /opt/homebrew/Caskroom/miniforge/base/envs/vla-readable-steerable/lib/python3.10/site-packages/transformers/activations.py:50(forward)
+    14625    0.059    0.000    0.059    0.000 {method 'mean' of 'torch._C.TensorBase' objects}
+     7200    0.058    0.000    0.172    0.000 /opt/homebrew/Caskroom/miniforge/base/envs/vla-readable-steerable/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py:116(apply_rotary_pos_emb)
+     7200    0.047    0.000    7.566    0.001 /opt/homebrew/Caskroom/miniforge/base/envs/vla-readable-steerable/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py:279(forward)
+95330/227    0.042    0.000    8.835    0.039 /opt/homebrew/Caskroom/miniforge/base/envs/vla-readable-steerable/lib/python3.10/site-packages/torch/nn/modules/module.py:1747(_wrapped_call_impl)
+
+

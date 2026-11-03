@@ -1,0 +1,11 @@
+
+{"snapshot": "plate_seed1000.npy", "prompt_length": 188, "base_gap_l2": 4.2509, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 346.5}
+{"snapshot": "plate_seed1001.npy", "prompt_length": 188, "base_gap_l2": 4.7458, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 395.0}
+{"snapshot": "plate_seed1002.npy", "prompt_length": 189, "base_gap_l2": 3.9544, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 374.8}
+{"snapshot": "plate_seed1003.npy", "prompt_length": 188, "base_gap_l2": 4.4127, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 475.5}
+{"snapshot": "plate_seed1004.npy", "prompt_length": 188, "base_gap_l2": 4.8831, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 439.3}
+{"snapshot": "plate_seed1005.npy", "prompt_length": 188, "base_gap_l2": 4.6437, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 440.7}
+{"snapshot": "plate_seed1006.npy", "prompt_length": 188, "base_gap_l2": 5.0268, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 393.2}
+{"snapshot": "plate_seed1007.npy", "prompt_length": 188, "base_gap_l2": 4.3315, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 326.8}
+{"snapshot": "plate_seed1008.npy", "prompt_length": 188, "base_gap_l2": 4.5917, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 12812.6}
+{"snapshot": "plate_seed1009.npy", "prompt_length": 188, "base_gap_l2": 4.6139, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 377.9}

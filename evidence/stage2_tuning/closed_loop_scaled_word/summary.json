@@ -1,0 +1,144 @@
+{
+  "status": "exploratory, tuning episodes only; not a gate or Stage 5 result",
+  "states": 19,
+  "excluded_no_edit_did_not_land_on_own_target": [],
+  "max_chunks": 16,
+  "invalid_generations": 0,
+  "generations": 688,
+  "counts": {
+    "none": {
+      "n": 19,
+      "own": 19,
+      "other": 0,
+      "none": 0
+    },
+    "word_natural": {
+      "n": 19,
+      "own": 19,
+      "other": 0,
+      "none": 0
+    },
+    "word_equal_size": {
+      "n": 19,
+      "own": 19,
+      "other": 0,
+      "none": 0
+    },
+    "random_full_size": {
+      "n": 19,
+      "own": 19,
+      "other": 0,
+      "none": 0
+    },
+    "complement": {
+      "n": 19,
+      "own": 2,
+      "other": 10,
+      "none": 7
+    },
+    "full_after_word": {
+      "n": 19,
+      "own": 2,
+      "other": 14,
+      "none": 3
+    },
+    "other_instruction": {
+      "n": 19,
+      "own": 0,
+      "other": 17,
+      "none": 2
+    }
+  },
+  "counts_plate_states": {
+    "none": {
+      "n": 10,
+      "own": 10,
+      "other": 0,
+      "none": 0
+    },
+    "word_natural": {
+      "n": 10,
+      "own": 10,
+      "other": 0,
+      "none": 0
+    },
+    "word_equal_size": {
+      "n": 10,
+      "own": 10,
+      "other": 0,
+      "none": 0
+    },
+    "random_full_size": {
+      "n": 10,
+      "own": 10,
+      "other": 0,
+      "none": 0
+    },
+    "complement": {
+      "n": 10,
+      "own": 2,
+      "other": 6,
+      "none": 2
+    },
+    "full_after_word": {
+      "n": 10,
+      "own": 2,
+      "other": 7,
+      "none": 1
+    },
+    "other_instruction": {
+      "n": 10,
+      "own": 0,
+      "other": 10,
+      "none": 0
+    }
+  },
+  "counts_stove_states": {
+    "none": {
+      "n": 9,
+      "own": 9,
+      "other": 0,
+      "none": 0
+    },
+    "word_natural": {
+      "n": 9,
+      "own": 9,
+      "other": 0,
+      "none": 0
+    },
+    "word_equal_size": {
+      "n": 9,
+      "own": 9,
+      "other": 0,
+      "none": 0
+    },
+    "random_full_size": {
+      "n": 9,
+      "own": 9,
+      "other": 0,
+      "none": 0
+    },
+    "complement": {
+      "n": 9,
+      "own": 0,
+      "other": 4,
+      "none": 5
+    },
+    "full_after_word": {
+      "n": 9,
+      "own": 0,
+      "other": 7,
+      "none": 2
+    },
+    "other_instruction": {
+      "n": 9,
+      "own": 0,
+      "other": 7,
+      "none": 2
+    }
+  },
+  "mean_word_fraction": {
+    "full_after_word": 0.0466,
+    "word_natural": 0.0467
+  }
+}

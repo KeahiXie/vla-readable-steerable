@@ -1,0 +1,110 @@
+{
+  "status": "exploratory, not a Stage 5 result",
+  "frames": [
+    379,
+    422,
+    426
+  ],
+  "layer": 16,
+  "positions": "after the word through the prompt end",
+  "patch": "prompt pass only; generated tokens run unedited",
+  "word_subspace": "span of norm.weight * unembedding row for \" plate\" and \" stove\"",
+  "self_patch_during_generation": [
+    {
+      "receiver": "plate",
+      "self_patch_identical": true
+    },
+    {
+      "receiver": "stove",
+      "self_patch_identical": true
+    }
+  ],
+  "invalid_outputs": 0,
+  "sizes": [
+    {
+      "episode_index": 379,
+      "receiver": "plate",
+      "delta_norm": 395.58,
+      "word_part_norm": 17.995,
+      "word_fraction_of_norm": 0.0455
+    },
+    {
+      "episode_index": 379,
+      "receiver": "stove",
+      "delta_norm": 395.58,
+      "word_part_norm": 17.995,
+      "word_fraction_of_norm": 0.0455
+    },
+    {
+      "episode_index": 422,
+      "receiver": "plate",
+      "delta_norm": 397.681,
+      "word_part_norm": 17.544,
+      "word_fraction_of_norm": 0.0441
+    },
+    {
+      "episode_index": 422,
+      "receiver": "stove",
+      "delta_norm": 397.681,
+      "word_part_norm": 17.544,
+      "word_fraction_of_norm": 0.0441
+    },
+    {
+      "episode_index": 426,
+      "receiver": "plate",
+      "delta_norm": 368.476,
+      "word_part_norm": 18.02,
+      "word_fraction_of_norm": 0.0489
+    },
+    {
+      "episode_index": 426,
+      "receiver": "stove",
+      "delta_norm": 368.476,
+      "word_part_norm": 18.02,
+      "word_fraction_of_norm": 0.0489
+    }
+  ],
+  "mean_rho": {
+    "full_after_word": 0.953,
+    "word_natural": -0.007,
+    "complement": 0.942,
+    "word_equal_size": 0.062,
+    "random_word_size": 0.002,
+    "random_full_size": 0.003
+  },
+  "mean_lens_move": {
+    "full_after_word_layer16_after_word": 1.0,
+    "full_after_word_layer19_after_word": 1.52,
+    "full_after_word_layer19_last": 1.014,
+    "full_after_word_layer31_last": 0.842,
+    "word_natural_layer16_after_word": 1.553,
+    "word_natural_layer19_after_word": 0.642,
+    "word_natural_layer19_last": 0.993,
+    "word_natural_layer31_last": 0.023,
+    "complement_layer16_after_word": -0.553,
+    "complement_layer19_after_word": 0.879,
+    "complement_layer19_last": 0.018,
+    "complement_layer31_last": 0.849,
+    "word_equal_size_layer16_after_word": 29.691,
+    "word_equal_size_layer19_after_word": 13.596,
+    "word_equal_size_layer19_last": 20.513,
+    "word_equal_size_layer31_last": 1.208,
+    "random_word_size_layer16_after_word": -0.065,
+    "random_word_size_layer19_after_word": 0.016,
+    "random_word_size_layer19_last": 0.019,
+    "random_word_size_layer31_last": -0.001,
+    "random_full_size_layer16_after_word": -1.274,
+    "random_full_size_layer19_after_word": -0.085,
+    "random_full_size_layer19_last": 0.404,
+    "random_full_size_layer31_last": -0.105
+  },
+  "interaction_full_minus_word_minus_complement": {
+    "379_plate": 0.0159,
+    "379_stove": 0.0408,
+    "422_plate": -0.0045,
+    "422_stove": 0.0356,
+    "426_plate": 0.0154,
+    "426_stove": 0.0
+  },
+  "total_seconds": 1247.9
+}

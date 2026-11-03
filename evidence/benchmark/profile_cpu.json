@@ -1,0 +1,10 @@
+{
+  "device": "cpu",
+  "total_s": 8.946,
+  "text_forward_calls": 225,
+  "text_forward_s": 7.671,
+  "vision_forward_calls": 1,
+  "vision_forward_s": 0.542,
+  "everything_else_s": 0.732,
+  "torch_threads": 4
+}

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Run lerobot-eval on LIBERO-Goal with the model card's executor settings and pinned revisions.
-#   PYTHON=/path/to/env/bin/python bash scripts/run_eval.sh <task_id> <n_episodes> <batch_size> <device> <output_dir>
+#   PYTHON=/path/to/env/bin/python bash scripts/run_eval.sh <task_id> <n_episodes> <batch_size> <device> <output_dir> [extra lerobot-eval options]
 # LIBERO-Goal task IDs: 8 = put the bowl on the plate, 1 = put the bowl on the stove.
 set -euo pipefail
 
@@ -28,6 +28,7 @@ EOF
 )
 
 mkdir -p "$(dirname "$OUTPUT_DIR")"
+# The perl filter splits on carriage returns and flushes, so progress bars reach the log as they happen.
 "$PYTHON" scripts/eval_libero.py \
   --policy.path="$MODEL_DIR" \
   --policy.vlm_checkpoint="$BASE_DIR" \
@@ -40,4 +41,5 @@ mkdir -p "$(dirname "$OUTPUT_DIR")"
   --eval.batch_size="$BATCH_SIZE" \
   --eval.n_episodes="$N_EPISODES" \
   --output_dir="$OUTPUT_DIR" \
-  2>&1 | sed "s#$HOME#~#g" | tee "$OUTPUT_DIR.log"
+  "${@:6}" \
+  2>&1 | perl -0015 -pe 'BEGIN { $| = 1 } s/\Q$ENV{HOME}\E/~/g' | tee "$OUTPUT_DIR.log"

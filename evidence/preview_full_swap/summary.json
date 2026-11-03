@@ -1,0 +1,51 @@
+{
+  "status": "exploratory, not Gate evidence; stopped on purpose after 3 of 5 frames",
+  "frames": [
+    "379",
+    "422",
+    "426"
+  ],
+  "snapshot_source": "dataset_frame",
+  "patch_scope": "prompt pass only, all prompt positions (only positions 144 and later differ)",
+  "self_patch_during_generation": "identical for both directions on the first frame (printed during the run)",
+  "invalid_outputs": 0,
+  "n_rows": 36,
+  "by_cell": {
+    "full_swap_layer8": {
+      "n": 6,
+      "mean": 1.008,
+      "min": 0.989,
+      "max": 1.0408
+    },
+    "full_swap_layer16": {
+      "n": 6,
+      "mean": 0.981,
+      "min": 0.913,
+      "max": 1.1011
+    },
+    "full_swap_layer19": {
+      "n": 6,
+      "mean": 0.842,
+      "min": 0.3941,
+      "max": 1.0968
+    },
+    "full_swap_layer24": {
+      "n": 6,
+      "mean": -0.022,
+      "min": -0.096,
+      "max": 0.0015
+    },
+    "full_swap_layer31": {
+      "n": 6,
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "random_same_norm_layer16": {
+      "n": 6,
+      "mean": 0.005,
+      "min": -0.0754,
+      "max": 0.0697
+    }
+  }
+}

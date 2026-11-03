@@ -15,3 +15,15 @@ def replace_output(layer, replacement):
         return replacement
     handle = layer.register_forward_hook(hook)
     return handle
+
+
+def replace_prompt_output(layer, replacement):
+    """Like replace_output, but only on the prompt pass of a generation.
+
+    With the cache on, later passes hold one new token, so their shape differs and they run unedited.
+    """
+    def hook(module, inputs, output):
+        if output.shape[1] == replacement.shape[1]:
+            return replacement
+    handle = layer.register_forward_hook(hook)
+    return handle

@@ -1,0 +1,182 @@
+{
+  "device": "cpu",
+  "amp_dtype": "bf16",
+  "rows": [
+    {
+      "episode_index": 379,
+      "instruction": "plate",
+      "off_seconds": 9.23,
+      "on_seconds": 13.24,
+      "identical_chunk": true,
+      "max_abs_diff_normalized": 0.0,
+      "mean_abs_diff_normalized": 0.0,
+      "first_action_off": [
+        0.873,
+        -0.002,
+        0.971,
+        -0.158,
+        0.291,
+        -0.01,
+        0.998
+      ],
+      "first_action_on": [
+        0.873,
+        -0.002,
+        0.971,
+        -0.158,
+        0.291,
+        -0.01,
+        0.998
+      ]
+    },
+    {
+      "episode_index": 379,
+      "instruction": "stove",
+      "off_seconds": 8.62,
+      "on_seconds": 14.54,
+      "identical_chunk": false,
+      "max_abs_diff_normalized": 0.1367,
+      "mean_abs_diff_normalized": 0.0108,
+      "first_action_off": [
+        -0.002,
+        0.314,
+        0.998,
+        -0.158,
+        0.201,
+        -0.01,
+        0.998
+      ],
+      "first_action_on": [
+        -0.002,
+        0.314,
+        0.998,
+        -0.158,
+        0.201,
+        -0.01,
+        0.998
+      ]
+    },
+    {
+      "episode_index": 422,
+      "instruction": "plate",
+      "off_seconds": 10.09,
+      "on_seconds": 15.93,
+      "identical_chunk": true,
+      "max_abs_diff_normalized": 0.0,
+      "mean_abs_diff_normalized": 0.0,
+      "first_action_off": [
+        0.635,
+        0.014,
+        0.857,
+        -0.158,
+        0.424,
+        -0.049,
+        0.998
+      ],
+      "first_action_on": [
+        0.635,
+        0.014,
+        0.857,
+        -0.158,
+        0.424,
+        -0.049,
+        0.998
+      ]
+    },
+    {
+      "episode_index": 422,
+      "instruction": "stove",
+      "off_seconds": 12.58,
+      "on_seconds": 23.94,
+      "identical_chunk": true,
+      "max_abs_diff_normalized": 0.0,
+      "mean_abs_diff_normalized": 0.0,
+      "first_action_off": [
+        -0.002,
+        0.217,
+        0.85,
+        -0.158,
+        0.318,
+        -0.049,
+        0.998
+      ],
+      "first_action_on": [
+        -0.002,
+        0.217,
+        0.85,
+        -0.158,
+        0.318,
+        -0.049,
+        0.998
+      ]
+    },
+    {
+      "episode_index": 426,
+      "instruction": "plate",
+      "off_seconds": 12.83,
+      "on_seconds": 26.52,
+      "identical_chunk": true,
+      "max_abs_diff_normalized": 0.0,
+      "mean_abs_diff_normalized": 0.0,
+      "first_action_off": [
+        0.998,
+        -0.307,
+        -0.006,
+        -0.018,
+        -0.002,
+        0.096,
+        0.998
+      ],
+      "first_action_on": [
+        0.998,
+        -0.307,
+        -0.006,
+        -0.018,
+        -0.002,
+        0.096,
+        0.998
+      ]
+    },
+    {
+      "episode_index": 426,
+      "instruction": "stove",
+      "off_seconds": 14.91,
+      "on_seconds": 23.81,
+      "identical_chunk": false,
+      "max_abs_diff_normalized": 0.0469,
+      "mean_abs_diff_normalized": 0.0052,
+      "first_action_off": [
+        -0.338,
+        0.225,
+        -0.818,
+        -0.131,
+        -0.002,
+        0.041,
+        0.998
+      ],
+      "first_action_on": [
+        -0.338,
+        0.225,
+        -0.818,
+        -0.115,
+        -0.002,
+        0.041,
+        0.998
+      ]
+    }
+  ],
+  "max_first_action_gap_plate_vs_stove": {
+    "379": {
+      "off": 0.875,
+      "on": 0.875
+    },
+    "422": {
+      "off": 0.637,
+      "on": 0.637
+    },
+    "426": {
+      "off": 1.336,
+      "on": 1.336
+    }
+  }
+}

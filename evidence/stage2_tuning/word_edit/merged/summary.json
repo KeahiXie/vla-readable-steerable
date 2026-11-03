@@ -1,0 +1,143 @@
+{
+  "status": "exploratory, tuning episodes only, written actions only; not a gate or Stage 5 result",
+  "states_run": 19,
+  "states_kept": 19,
+  "excluded_nearly_identical_baselines": [],
+  "gap_floor_l2": 0.5,
+  "base_gap_l2": {
+    "n": 38,
+    "mean": 4.238,
+    "median": 4.413,
+    "min": 2.7694,
+    "max": 5.0268
+  },
+  "word_fraction_of_norm": {
+    "n": 38,
+    "mean": 0.046,
+    "median": 0.046,
+    "min": 0.043,
+    "max": 0.0498
+  },
+  "invalid_outputs": 0,
+  "rho": {
+    "full_after_word": {
+      "n": 38,
+      "mean": 0.882,
+      "median": 0.957,
+      "min": 0.1134,
+      "max": 1.0498
+    },
+    "word_natural": {
+      "n": 38,
+      "mean": 0.002,
+      "median": 0.0,
+      "min": -0.0352,
+      "max": 0.0445
+    },
+    "complement": {
+      "n": 38,
+      "mean": 0.88,
+      "median": 0.955,
+      "min": 0.113,
+      "max": 1.0498
+    },
+    "word_equal_size": {
+      "n": 38,
+      "mean": 0.08,
+      "median": 0.041,
+      "min": -0.0573,
+      "max": 0.7612
+    },
+    "random_word_size": {
+      "n": 38,
+      "mean": 0.002,
+      "median": 0.0,
+      "min": -0.0515,
+      "max": 0.0665
+    },
+    "random_full_size": {
+      "n": 38,
+      "mean": 0.043,
+      "median": 0.023,
+      "min": -0.0493,
+      "max": 0.3973
+    }
+  },
+  "rho_first_action": {
+    "full_after_word": {
+      "n": 38,
+      "mean": 0.862,
+      "median": 0.967,
+      "min": -0.0069,
+      "max": 1.1121
+    },
+    "word_natural": {
+      "n": 38,
+      "mean": 0.003,
+      "median": 0.0,
+      "min": -0.0087,
+      "max": 0.0662
+    },
+    "complement": {
+      "n": 38,
+      "mean": 0.862,
+      "median": 0.967,
+      "min": -0.0069,
+      "max": 1.1121
+    },
+    "word_equal_size": {
+      "n": 38,
+      "mean": 0.097,
+      "median": 0.038,
+      "min": -0.0577,
+      "max": 0.8641
+    },
+    "random_word_size": {
+      "n": 38,
+      "mean": -0.0,
+      "median": 0.0,
+      "min": -0.0038,
+      "max": 0.0038
+    },
+    "random_full_size": {
+      "n": 38,
+      "mean": 0.043,
+      "median": 0.019,
+      "min": -0.1403,
+      "max": 0.6012
+    }
+  },
+  "interaction_full_minus_word_minus_complement": {
+    "n": 38,
+    "mean": -0.001,
+    "median": 0.0,
+    "min": -0.1269,
+    "max": 0.06140000000000001
+  },
+  "reading_move_median": {
+    "full_after_word_layer17_last": 0.996,
+    "full_after_word_layer19_last": 1.008,
+    "full_after_word_layer22_last": 1.273,
+    "full_after_word_layer31_last": 0.747,
+    "word_natural_layer17_last": 0.935,
+    "word_natural_layer19_last": 0.836,
+    "word_natural_layer22_last": 0.621,
+    "word_natural_layer31_last": 0.039,
+    "complement_layer17_last": 0.054,
+    "complement_layer19_last": 0.178,
+    "complement_layer22_last": 0.656,
+    "complement_layer31_last": 0.749,
+    "word_equal_size_layer17_last": 16.27,
+    "word_equal_size_layer19_last": 16.725,
+    "word_equal_size_layer22_last": 16.651,
+    "word_equal_size_layer31_last": 1.06,
+    "random_word_size_layer17_last": 0.0,
+    "random_word_size_layer19_last": 0.008,
+    "random_word_size_layer22_last": 0.006,
+    "random_word_size_layer31_last": -0.003,
+    "random_full_size_layer17_last": 0.049,
+    "random_full_size_layer19_last": 0.083,
+    "random_full_size_layer22_last": 0.142,
+    "random_full_size_layer31_last": -0.035
+  }
+}

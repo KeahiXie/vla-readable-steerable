@@ -1,0 +1,10 @@
+
+{"snapshot": "stove_seed1000.npy", "prompt_length": 188, "base_gap_l2": 2.7694, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 485.7}
+{"snapshot": "stove_seed1001.npy", "prompt_length": 188, "base_gap_l2": 3.9111, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 444.6}
+{"snapshot": "stove_seed1002.npy", "prompt_length": 189, "base_gap_l2": 3.4219, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 465.5}
+{"snapshot": "stove_seed1003.npy", "prompt_length": 188, "base_gap_l2": 3.9227, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 421.0}
+{"snapshot": "stove_seed1004.npy", "prompt_length": 188, "base_gap_l2": 3.2175, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 324.5}
+{"snapshot": "stove_seed1005.npy", "prompt_length": 189, "base_gap_l2": 3.9262, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 12825.7}
+{"snapshot": "stove_seed1006.npy", "prompt_length": 188, "base_gap_l2": 4.718, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 361.5}
+{"snapshot": "stove_seed1007.npy", "prompt_length": 188, "base_gap_l2": 4.7623, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 318.3}
+{"snapshot": "stove_seed1009.npy", "prompt_length": 188, "base_gap_l2": 4.4217, "baselines_valid": {"plate": true, "stove": true}, "self_patch_identical": {"plate": true, "stove": true}, "seconds": 437.9}
